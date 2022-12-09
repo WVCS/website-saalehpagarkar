@@ -1,3 +1,28 @@
 body {
+  background-color: #CC00FF
+}
 
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+   text-shadow:4px 4px black;
+}
+
+nav{
+  list-style-type: none;
+  position: fixed;
+  background-color:black;
+  width:100%;
+  top: 0;
+  left:0;
+}
+li{display: inline;
+padding: 3%;
+}
+li:hover {
+  background-color: black;}
+a{
+  text-decoration: none;
+  color: salmon;
 }
